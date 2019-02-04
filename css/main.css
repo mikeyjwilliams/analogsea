@@ -1,0 +1,99 @@
+/********LAYOUT***********/
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  background-color:#3F94E7;
+  font-family: 'Roboto', sans-serif;
+}
+/*.wrapper {
+
+  width: 100%;
+}*/
+
+
+header {
+ width: 100%;
+
+}
+main {
+  width: 100%;
+}
+footer {
+  width: 100%;
+}
+
+/******END LAYOUT********/
+/*******GENERAL**********/
+.center {
+  display: flex;
+  justify-content: center;
+}
+.margin {
+  margin: 2.5em 0;
+}
+.width {
+  width: 100%;
+}
+.border-rad {
+  border-radius: 4px;
+  box-shadow: none;
+  border: 1px solid #c6c4c4;
+}
+.small-margin {
+  margin-top: .75em;
+}
+
+.white-f {
+  color: #fff;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/******END GENERAL*********/
+/********HEADER***********/
+.logo {
+  height: 35px;
+}
+/*******END HEADER*******/
+/********MAIN **********/
+    /*****FORM*********/
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color:#FFFFFF;
+      max-width: 25em;  /** larger screens **/
+      padding:2.5em 2.5em 1.5em;
+
+    }
+    fieldset {
+      border-style:none;
+
+    }
+    legend {
+      text-align: center;
+    }
+    .sign-up {
+      font-size: 2.5em;
+      color: #727272;
+    }
+    label {
+     display: flex;
+    }
+    input {
+      width: 20em; /** larger screens **/
+      padding: .938em; /**larger screens **/
+    }
+    .submit-btn {
+      width: 20em; /** larger screens **/
+      background-color: green;
+      color: white;
+      border: 1px solid black;
+      padding: .938em; /** larger screens **/
+    }

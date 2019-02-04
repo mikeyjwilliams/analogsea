@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Analog Sea Sign Up</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="center margin">
+      <img class="logo" src="img/logo.png" alt="AnalogSea logo">
+    </header>
+    <main class="center">
+      <form action="/signup/" method="post">
+
+          <legend><span class="sign-up">Sign up</span></legend>
+          <fieldset>
+            <label for="email">Email</label>
+             <br>
+            <input type="text" name="email" class="border-rad" id="email" placeholder="foo@bar.com" required>
+            </fieldset>
+             <br>
+             <fieldset>
+            <label for="password">Password</label>
+             <br>
+            <input type="password" name="password" class="border-rad" id="password" placeholder="1234passw0rd" required>
+          </fieldset>
+         <br>
+       <fieldset class="width">
+        <button class="submit-btn border-rad" type="submit">Sign up</button>
+          <br>
+        <a  class="small-margin center" href="/forgot-password/new">Forgot password?</a>
+       </fieldset>
+      </form>
+    </main>
+    <footer class="center">
+      <p class="white-f bold"><b>Already have an account? <a class="white-f bold" href="/login">Log in</a></b></p>
+    </footer>
+  </div><!--/ wrapper-->
+</body>
+</html>
